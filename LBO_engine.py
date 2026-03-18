@@ -109,7 +109,7 @@ def run_lbo_model(
     try:
         import numpy_financial as npf
         true_irr = npf.irr(cash_flow_stream)
-    except ImportErrors:
+    except ImportError:
         # Fallback for older numpy versions
         true_irr = np.irr(cash_flow_stream)
         
