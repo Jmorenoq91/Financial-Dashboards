@@ -4,3 +4,4 @@ numpy
 plotly
 numpy-financial
 matplotlib
+xlsxwriter
